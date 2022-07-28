@@ -1,0 +1,57 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap");
+body {
+  font-family: "Poppins", sans-serif;
+}
+.background-sky-blue {
+  background-color: #289bde;
+}
+.color-sky-blue {
+  color: #289bde;
+}
+.background-light-blue {
+  background-color: rgba(40, 155, 222, 0.1);
+}
+.color-lighter-gray {
+  color: #f4f4f4;
+}
+.color-light-gray {
+  color: #777777;
+}
+.color-dark-gray {
+  color: #4a4a4a;
+}
+/* Carousel Image Darken */
+.carousel-item img {
+  filter: brightness(40%);
+}
+.max-width-text {
+  max-width: 500px;
+}
+.register-now {
+  background: white;
+}
+.social-links a {
+  color: white;
+  transition: all 0.3s ease;
+}
+.social-links a:hover {
+  color: #289bde;
+}
+/* Carousel Responsive */
+@media (max-width: 576px) {
+  .header-carousel-caption {
+    top: 0%;
+    right: 2%;
+    left: 2%;
+  }
+  .header-carousel-caption h1 {
+    font-size: 22px;
+  }
+  .header-carousel-caption p {
+    font-size: 14px;
+    font-weight: 200;
+  }
+  .header-carousel-caption button {
+    font-size: 14px;
+  }
+}
